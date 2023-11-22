@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+<section>
+    <h1 value="0" id="output1">0</h1>    
+    <h1>to</h1>
+    <h1 id="output2">0</h1>    
+</section>
+
+<p>Playing to:</p>
+<input type="number" id="input1" />
+<br>
+<br>
+<button onclick="countClicksOne()" id="one">Player one</button>
+
+<button onclick="countClicksTwo()" id="two">Player two</button>
+
+<button id="reset" onclick="clearText()">Reset</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

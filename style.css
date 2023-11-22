@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    background: #F0DBAF;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin: 0;
+}
+h1 {
+    padding-right: 10px;
+
+}
+p {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+button {
+    font-weight: bold;
+    padding: 10px 15px;
+    background: white;
+    border: none;
+    margin-right: 20px;
+    transition: 0.3s;
+    font-family: monospace;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+    color: skyblue;
+}
+
+
+input {
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 32px;
+    font-family: monospace;
+    border-radius: 8px;
+}
+
+div.box {
+ background: #DC8686;
+ padding: 20px 10px;
+ margin: 0 50px;
+ border-radius: 8px;
+}
